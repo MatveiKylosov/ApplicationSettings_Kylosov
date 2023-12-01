@@ -38,7 +38,7 @@ namespace ApplicationSettings_Kylosov.Pages
         }
         private void OpenDataBase(object sender, RoutedEventArgs e)
         {
-            if(openFileDialog.ShowDialog() = DialogResult.OK)
+            if(openFileDialog.ShowDialog() == DialogResult.OK)
                 tb_database.Text = openFileDialog.FileName;
         }
         
